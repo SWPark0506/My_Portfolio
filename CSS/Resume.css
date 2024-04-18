@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+KR:wght@100..900&family=Oswald:wght@200..700&family=Rubik+Glitch&display=swap');
+
+
+a:link {
+  text-decoration: none;
+}
+body{
+  background-color: #529AC7;
+ 
+}
+
+.form {
+  margin: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #fff;
+  width: 50%;
+  border-radius: 1rem;
+  margin-bottom: 4rem;
+}
+
+.container > table {
+  margin-top: 20px;
+  
+}
+table {
+  font-family: "Noto Sans KR", sans-serif;
+  width: 80%;
+  text-align: center;
+}
+
+.title {
+  width: 40%;
+  margin-top: 52px;
+}
+
+.title > h1 {
+  font-family:  "Noto Sans KR", sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 1.2em;
+}
+
+.image {
+  width: 7em;
+  text-align: center;
+}
+
+.image > img {
+  display: block;
+  margin: 0 auto;
+  width: 100%; 
+  height: auto; 
+}

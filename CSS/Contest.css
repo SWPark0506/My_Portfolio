@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+KR:wght@100..900&family=Oswald:wght@200..700&family=Rubik+Glitch&display=swap');
+
+
+a:link {
+    text-decoration: none;
+  }
+
+  body {
+    background-color: #EAD8C0
+    ;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    width: 40%;
+  }
+  
+  .title > h1 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  
+
+  .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 57%;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+    margin-top: 1.5rem;
+    padding: 20px;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+
+  .card-title{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .card-title > h1 {
+    font-weight: 1000;
+  }
+
+  .card-title > p {
+    opacity: 0.5;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+   } 
+  
+  .imagebox {
+    width: 40%;
+    margin-bottom: 4em;
+    margin-right: 2em;
+  }
+
+  .imagebox > img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .description{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+  }
+
+  .description > div > fieldset {
+    margin-bottom: 1rem;
+  }
+
+  fieldset li {
+
+    list-style: none;
+  }
+
+  .description ul {
+    padding-left: 10px;
+  }
+
+  .multi-li > li{
+    margin-bottom: .5em;
+  }
+
+
+
+
+
+ 
