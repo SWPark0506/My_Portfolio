@@ -12,8 +12,6 @@
 footer {
     display: block;
     unicode-bidi: isolate;
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
     font-family: Noto Sans KR,sans-serif;
     line-height: normal;
     box-sizing: border-box;
